@@ -7,6 +7,10 @@ import UseEffect from './UseEffect'
 import UseReducer from './UseReducer'
 import UseMemo from './UseMemo'
 import UseCallback from './UseCallBack'
+import UseRef from './UseRef'
+import ChildContext from './ChildContext'
+import UseContext from './UseContext'
+import CustomHooks from './CustomHooks'
 
 function App() {
 
@@ -16,7 +20,10 @@ function App() {
      {/* <UseEffect/> */}
      {/* <UseReducer/> */}
      {/* <UseMemo/> */}
-     <UseCallback/>
+     {/* <UseCallback/> */}
+     {/* <UseRef/> */}
+     {/* <UseContext/> */}
+     <CustomHooks/>
     </>
   )
 }
